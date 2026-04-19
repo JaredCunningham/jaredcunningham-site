@@ -3,7 +3,7 @@ import Image from "next/image";
 // Replace these with real URLs after Gumroad + Cal.com are live
 const GUMROAD_GUIDE_URL = "https://gumroad.com/";
 const GUMROAD_KIT_URL = "https://gumroad.com/";
-const CAL_COM_URL = "https://cal.com/";
+const CAL_COM_URL = "https://cal.com/jared-cunningham-dfy-install";
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
             alt="Jared Cunningham"
             width={160}
             height={160}
-            className="h-32 w-32 rounded-2xl shadow-sm ring-1 ring-navy-800/10 md:h-40 md:w-40"
+            className="h-40 w-40 rounded-2xl md:h-52 md:w-52"
           />
           <div className="flex-1">
             <div className="mb-3 inline-flex items-center gap-2 rounded-full bg-navy-800/5 px-3 py-1 text-xs font-medium uppercase tracking-wider text-navy-800">
