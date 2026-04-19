@@ -121,9 +121,9 @@ export default function Home() {
               Book a DFY install →
             </a>
             <div className="text-sm text-ink/60">
-              <span className="font-semibold text-ink/80">$750</span> intro
+              <span className="font-semibold text-ink/80">$1,000</span> intro
               &nbsp;·&nbsp;
-              <span className="font-semibold text-ink/80">$1,500</span> full (+1
+              <span className="font-semibold text-ink/80">$2,000</span> full (+1
               week of support)
             </div>
           </div>
