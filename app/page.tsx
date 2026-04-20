@@ -1,9 +1,8 @@
 import Image from "next/image";
 
-// Replace these with real URLs after Gumroad + Cal.com are live
-const GUMROAD_GUIDE_URL = "https://gumroad.com/";
-const GUMROAD_KIT_URL = "https://gumroad.com/";
-const CAL_COM_URL = "https://cal.com/jared-cunningham-dfy-install";
+const GUMROAD_GUIDE_URL = "https://jaredcunningham.gumroad.com/l/subscription-safe-ai-guide";
+const GUMROAD_KIT_URL = "https://jaredcunningham.gumroad.com/l/subscription-safe-ai-kit";
+const GUMROAD_DFY_URL = "https://jaredcunningham.gumroad.com/l/dfy-install";
 
 export default function Home() {
   return (
@@ -64,7 +63,7 @@ export default function Home() {
               <span className="serif text-5xl font-semibold text-navy-900">
                 $29
               </span>
-              <span className="text-sm text-ink/50">PDF · 25 pages</span>
+              <span className="text-sm text-ink/50">PDF · 19 pages</span>
             </div>
             <p className="mb-4 text-ink/80">
               Full narrative + architecture + cost-safety discipline + OpenClaw
@@ -115,16 +114,15 @@ export default function Home() {
 
           <div className="mt-5 flex flex-col gap-3 md:flex-row md:items-center">
             <a
-              href={CAL_COM_URL}
+              href={GUMROAD_DFY_URL}
               className="inline-flex items-center justify-center gap-2 rounded-lg bg-navy-800 px-6 py-3 text-sm font-semibold text-cream-50 transition-all hover:bg-navy-900"
             >
               Book a DFY install →
             </a>
             <div className="text-sm text-ink/60">
-              <span className="font-semibold text-ink/80">$1,000</span> intro
+              <span className="font-semibold text-ink/80">$1,000</span>
               &nbsp;·&nbsp;
-              <span className="font-semibold text-ink/80">$2,000</span> full (+1
-              week of support)
+              90-minute call, Pax live on your Mac by the end
             </div>
           </div>
         </div>
