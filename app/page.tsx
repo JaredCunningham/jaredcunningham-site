@@ -88,7 +88,7 @@ export default function Home() {
             </div>
             <p className="mb-4 text-cream-100/85">
               Everything in the Guide, plus persona templates, vault structure,
-              pai-mobile config files, setup script. Deploy in 90 minutes.
+              config files, setup script. Deploy in 90 minutes.
             </p>
             <span className="inline-flex items-center gap-2 text-sm font-medium text-cream-50 group-hover:gap-3 transition-all">
               Get the full Kit →
