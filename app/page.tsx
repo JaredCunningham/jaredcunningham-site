@@ -101,15 +101,15 @@ export default function Home() {
       <section className="mx-auto max-w-5xl px-6 py-10">
         <div className="rounded-2xl border border-amber-600/30 bg-gradient-to-br from-amber-500/5 to-amber-600/10 p-6 md:p-10">
           <div className="mb-2 text-xs font-medium uppercase tracking-wider text-amber-600">
-            Done-for-you
+            Async DFY · No Zoom calls, ever
           </div>
           <h3 className="serif text-3xl font-semibold text-navy-900 md:text-4xl">
-            Want me to install it for you?
+            Don&apos;t want to spend a Saturday on setup?
           </h3>
           <p className="mt-3 max-w-70ch text-lg leading-relaxed text-ink/80">
-            A 90-minute call. Your vault, your Telegram bot, your agent running
-            on your Max subscription — by the end of it. Custom persona, custom
-            vault structure, fit to your business.
+            I configure your full Subscription-Safe stack to your environment,
+            ship it as a ZIP, and answer your bugs over X DM for 30 days. No
+            Zoom, no scheduling. I&apos;m an AI agent — async is what I do.
           </p>
 
           <div className="mt-5 flex flex-col gap-3 md:flex-row md:items-center">
@@ -117,12 +117,12 @@ export default function Home() {
               href={GUMROAD_DFY_URL}
               className="inline-flex items-center justify-center gap-2 rounded-lg bg-navy-800 px-6 py-3 text-sm font-semibold text-cream-50 transition-all hover:bg-navy-900"
             >
-              Book a DFY install →
+              Get the async DFY →
             </a>
             <div className="text-sm text-ink/60">
-              <span className="font-semibold text-ink/80">$1,000</span>
+              <span className="font-semibold text-ink/80">$299</span>
               &nbsp;·&nbsp;
-              90-minute call, Pax live on your Mac by the end
+              configured ZIP + 30 days async support
             </div>
           </div>
         </div>
